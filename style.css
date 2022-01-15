@@ -1,0 +1,50 @@
+
+/* -----Import-fonts----- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* Body-Style */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Section-Part */
+
+.influncer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+h1{
+    font-size: 52px;
+    color: #3A3A3A;
+}
+
+.button{
+    background-color: #E02C6D;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+}
+.influncer .image-part{
+    width: 100%;
+    padding-left: 10px;
+}
+
+
+.image-part img{
+    background-image: url(images/Circle\ design.svg);
+}
+
+-------Middle-part------
+.item-name{
+    font-weight: 500;
+}
+.item-price{
+    font-weight: 400;
+    font-family: Inter;
+    color: #000000;
+}
